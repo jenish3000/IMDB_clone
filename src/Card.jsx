@@ -4,6 +4,8 @@ import './Card.css'
 function Card(props){
     return(
         <>
+        <div className="all">
+
 
         <div className="card">
         <a href={props.redirect}>
@@ -13,10 +15,11 @@ function Card(props){
     </img>
         </a>
     <div className="category"> {props.title}  </div>
-    <div className="heading"> {props.name}
-    <div>   {props.date}</div>
+    <div className="heading12"> 
+    {props.date}
     </div>
     </div>
+        </div>
 
         </>
     )

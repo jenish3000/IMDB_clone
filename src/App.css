@@ -1,3 +1,6 @@
+.all{
+  background-color: rgb(255, 255, 255);
+}
 .container {
   display: flex;
   justify-content: center;
@@ -8,18 +11,18 @@
 .card {
   width: 290px;
   height: 450px;
-  background: red;
+  background: rgb(236, 139, 139);
   padding: .4em;
   border-radius: 6px;
-  margin: 0 10px;
+  margin: 20px 10px;
 }
 
 .heading1{
-  text-decoration: black underline;
+  text-decoration: rgb(0, 0, 0) underline;
   display: flex;
   justify-content:center ;
   align-items: center;
   padding: 20px;
   /* background-color: black; */
-  color: red;
+  color: rgb(17, 16, 16);
 }
